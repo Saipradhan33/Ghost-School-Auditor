@@ -1,0 +1,13 @@
+{
+  "DocVersion": "1.0.0",
+  "StudioMinVersion": "2025.04.0",
+  "SolutionId": "0ee70739-024e-4280-0b70-08de8695b82f",
+  "Projects": [
+    {
+      "Type": "Process",
+      "ProjectRelativePath": "RPA Workflow/project.uiproj",
+      "Id": "fe445f74-7507-41e3-ac7b-b09d549fa499"
+    }
+  ],
+  "AutomationHubIdeaUrl": null
+}

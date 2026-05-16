@@ -1,0 +1,37 @@
+# UiPath and environment files
+userProfile/
+**/userProfile/
+*.local
+*.cache
+.vs/
+.idea/
+bin/
+obj/
+*.log
+*.tmp
+publish/
+artifacts/
+.DS_Store
+Thumbs.db
+
+# Credentials and secrets
+resources/solution_folder/connection/*.json
+resources/solution_folder/connection/*_1.json
+
+# Editor files
+*.suo
+*.user
+*.userosscache
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Visual Studio Code workspace storage
+.vscode/
+
+# Ignore packages folder if present
+.packages
+.nuget
+
+# Temporary test outputs
+tests/output/

@@ -1,0 +1,29 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "revasahu2006@gmail.com_1",
+    "kind": "connection",
+    "type": "uipath-google-drive",
+    "apiVersion": "integrationservice.uipath.com/v1",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "connectorName": "Google Drive",
+      "name": "revasahu2006@gmail.com_1",
+      "description": null,
+      "authenticationType": "AuthenticateAfterDeployment",
+      "connectorVersion": "1.13.10",
+      "connectorKey": "uipath-google-drive",
+      "pollingInterval": 5
+    },
+    "locks": [],
+    "key": "bda4ae6f-e060-4f9a-8d50-36abd89dbcac"
+  }
+}

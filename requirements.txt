@@ -1,0 +1,110 @@
+# Ghost School Attendance Auditor - Requirements File
+# This file lists all Python, system, and UiPath dependencies required to run the project
+
+# ========================================
+# PYTHON CORE DEPENDENCIES
+# ========================================
+
+python>=3.8,<4.0
+
+# ========================================
+# PDF PROCESSING & EXTRACTION
+# ========================================
+
+PyPDF2==3.0.1
+pdfplumber==0.10.3
+python-pptx==0.6.21
+
+# ========================================
+# OCR & TEXT EXTRACTION
+# ========================================
+
+pytesseract==0.3.10
+Pillow==10.0.0
+
+# ========================================
+# DATA PROCESSING & ANALYSIS
+# ========================================
+
+pandas==2.0.3
+numpy==1.24.3
+
+# ========================================
+# EMAIL & SMTP AUTOMATION
+# ========================================
+
+python-dotenv==1.0.0
+secure-smtplib==0.1.1
+
+# ========================================
+# GOOGLE WORKSPACE INTEGRATION
+# ========================================
+
+google-auth-oauthlib==1.0.0
+google-auth-httplib2==0.1.1
+google-api-python-client==2.95.0
+
+# ========================================
+# DATABASE SUPPORT
+# ========================================
+
+sqlite3  # Built-in
+psycopg2-binary==2.9.7  # PostgreSQL (optional)
+
+# ========================================
+# JSON & DATA SERIALIZATION
+# ========================================
+
+simplejson==3.19.2
+
+# ========================================
+# LOGGING & MONITORING
+# ========================================
+
+python-json-logger==2.0.7
+
+# ========================================
+# UTILITIES & HELPERS
+# ========================================
+
+requests==2.31.0
+pyyaml==6.0.1
+
+# ========================================
+# UIPATH AUTOMATION PACKAGES (NuGet)
+# ========================================
+# NOTE: These are installed via UiPath Studio → Manage Packages
+# Not included in pip requirements, but listed for reference:
+#
+# - UiPath.GSuite.Activities (v3.8.10+)
+# - UiPath.System.Activities (v26.2.6+)
+# - UiPath.IntegrationService.Activities (v1.26.0+)
+# - UiPath.DocumentUnderstanding.Activities (v2.17.4+)
+# - UiPath.WebAPI.Activities (v2.4.0+)
+
+# ========================================
+# SYSTEM REQUIREMENTS
+# ========================================
+# NOT included in pip (install separately):
+#
+# - UiPath Studio v26.0+
+# - .NET Framework 4.7+
+# - Tesseract OCR Engine 5.0+ (system install)
+# - Google Chrome or Edge (for automation)
+# - Python 3.8+ (system install)
+
+# ========================================
+# DEVELOPMENT & TESTING (Optional)
+# ========================================
+
+pytest==7.4.0
+pytest-cov==4.1.0
+black==23.9.1
+flake8==6.1.0
+
+# ========================================
+# OPTIONAL: API & MIDDLEWARE
+# ========================================
+
+fastapi==0.103.0
+uvicorn==0.23.2
